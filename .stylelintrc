@@ -1,0 +1,9 @@
+{
+  "extends": [
+
+  ],
+  "customSyntax": "postcss-scss",
+  "ignoreAtRules": [
+    "function-calc-no-invalid"
+  ]
+}
