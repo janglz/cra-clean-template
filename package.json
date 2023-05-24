@@ -2,7 +2,7 @@
   "name": "cra-clean-template",
   "version": "0.0.1",
   "description": "template for new projects",
-  "main": "index.ts",
+  "main": "index.tsx",
   "repository": "https://github.com/janglz/cra-clean-template.git",
   "author": "Roman Maliuzhinets",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "build-storybook": "build-storybook -c ./configs/storybook"
   },
   "dependencies": {
+    "fs-extra": "^11.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -45,5 +46,8 @@
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.1"
+  },
+  "bin": {
+    "cra-clean-template": "./bin/cli.js"
   }
 }
